@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryDark">#FF4081</color>
+    <color name="colorAccent">#303F9F</color>
+
+    <color name="main_bg_color">#E91E63</color>
+    <color name="othor">#673AB7</color>
+    <color name="main_text_bgcolor">#fff</color>
+    <color name="boll_color">#757575</color>
+</resources>

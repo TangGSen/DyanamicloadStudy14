@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/othor"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_page1"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_page1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="Page1"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="66dp"
+            android:background="@drawable/img_bg_page3"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="left"
+            android:layout_margin="8dp"
+            android:background="@drawable/img_bg_page3"
+            android:gravity="top" />
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="right"
+            android:layout_margin="8dp"
+            android:background="@drawable/img_bg_page3"
+            android:gravity="right" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/changeSkinPlug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/text_bg"
+        android:onClick="changeSkinPlug"
+        android:textColor="@color/main_text_bgcolor"
+        android:text="插件皮肤" />
+
+    <Button
+        android:id="@+id/changeSkinDefult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/text_bg"
+        android:onClick="changeSkinDefult"
+        android:textColor="@color/main_text_bgcolor"
+        android:text="默认皮肤" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/text_bg"
+        android:onClick="jumpOther"
+        android:text="跳转"
+        android:textColor="@color/main_text_bgcolor" />
+
+
+</LinearLayout>
